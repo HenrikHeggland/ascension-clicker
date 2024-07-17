@@ -1,4 +1,5 @@
-import { Footer, Header, Counter } from "@/components";
+"use client";
+import { ClickerCard, Footer, Header } from "@/components";
 
 export default function Home() {
   return (
@@ -6,11 +7,8 @@ export default function Home() {
       <Header />
 
       <main className="flex flex-col flex-grow items-center justify-center p-5">
-        <div>
-          <h1>Text</h1>
-        </div>
-        <div className="flex flex-col">
-          <Counter />
+        <div className="flex flex-col mt-3">
+          <ClickerCard />
         </div>
       </main>
 
