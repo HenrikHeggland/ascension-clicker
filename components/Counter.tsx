@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 
 export const Counter = () => {
@@ -7,7 +6,7 @@ export const Counter = () => {
   const incrementCounter = () => setCounter(counter + 1);
 
   return (
-    <div className="mt-4 flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <h2>{counter}</h2>
       <button onClick={incrementCounter}>Click</button>
     </div>
